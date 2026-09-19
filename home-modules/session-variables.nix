@@ -1,0 +1,10 @@
+{ ... }:
+
+{
+  home.sessionVariables = {
+    EDITOR = "micro";
+    QT_QPA_PLATFORM = "wayland";
+    ELECTRON_OZONE_PLATFORM_HINT = "wayland";
+    MOZ_ENABLE_WAYLAND = "1";
+  };
+}
