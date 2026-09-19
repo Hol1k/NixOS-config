@@ -17,6 +17,7 @@
   	./home-modules/hyprland/hypr.nix
   	./home-modules/hyprland/waybar.nix
   	./home-modules/hyprland/dark-theme.nix
+  	./home-modules/hyprland/pointer-cursor.nix
 
   	./home-modules/bash.nix
   	

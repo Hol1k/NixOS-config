@@ -12,7 +12,7 @@
   networking.hostName = "nixos";
   networking.networkmanager.enable = true;
 
-  time.timeZone = "Asiz/Yekaterinburg";
+  time.timeZone = "Asia/Yekaterinburg";
 
   nixpkgs.config.allowUnfree = true;
 

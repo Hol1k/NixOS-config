@@ -35,7 +35,11 @@
           (lib.generators.mkLuaInline "function()\n  hl.exec_cmd(\"gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'\")\nend")
         ];
       };
-      
+
+      env = [
+      	{ _args = [ "XCURSOR_THEME" "Vimix-cursors" ]; }
+      	{ _args = [ "XCURSOR_SIZE" "32" ]; }
+      ];
 
 	  config = {
 	  	input = {
