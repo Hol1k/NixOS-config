@@ -9,6 +9,7 @@
 	obsidian
 	telegram-desktop
 	ticktick
+	libreoffice
 
 	polkit_gnome
 	noto-fonts-color-emoji
