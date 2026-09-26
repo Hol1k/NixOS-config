@@ -8,6 +8,7 @@
 	kdePackages.dolphin
 	obsidian
 	telegram-desktop
+	ticktick
 
 	polkit_gnome
 	noto-fonts-color-emoji
