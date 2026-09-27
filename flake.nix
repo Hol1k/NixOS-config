@@ -24,6 +24,7 @@
           ./modules/polkit.nix
           ./modules/throne.nix
           ./modules/steam.nix
+          ./modules/fonts.nix
           
           ./modules/services/pipewire.nix
 
