@@ -25,6 +25,7 @@
           ./modules/throne.nix
           ./modules/steam.nix
           ./modules/fonts.nix
+          ./modules/direnv.nix
           
           ./modules/services/pipewire.nix
 
