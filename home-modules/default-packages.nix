@@ -8,6 +8,7 @@
 	kdePackages.dolphin
 	obsidian
 	telegram-desktop
+	discord
 	ticktick
 	libreoffice
 
