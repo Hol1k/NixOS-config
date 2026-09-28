@@ -207,6 +207,38 @@
       	  	(lib.generators.mkLuaInline "hl.dsp.exec_cmd(menu)")
       	  ];
       	}
+
+      	{
+      	  _args = [
+      	  	(lib.generators.mkLuaInline "mainMod .. \" + F\"")
+      	  	(lib.generators.mkLuaInline "hl.dsp.window.fullscreen({action = \"toggle\"})")
+      	  ];
+      	}
+
+      	{
+      	  _args = [
+      	  	(lib.generators.mkLuaInline "mainMod .. \" + H\"")
+      	  	(lib.generators.mkLuaInline "hl.dsp.focus({ direction = \"left\" })")
+      	  ];
+      	}
+      	{
+      	  _args = [
+      	  	(lib.generators.mkLuaInline "mainMod .. \" + J\"")
+      	  	(lib.generators.mkLuaInline "hl.dsp.focus({ direction = \"down\" })")
+      	  ];
+      	}
+      	{
+      	  _args = [
+      	  	(lib.generators.mkLuaInline "mainMod .. \" + K\"")
+      	  	(lib.generators.mkLuaInline "hl.dsp.focus({ direction = \"up\" })")
+      	  ];
+      	}
+      	{
+      	  _args = [
+      	  	(lib.generators.mkLuaInline "mainMod .. \" + L\"")
+      	  	(lib.generators.mkLuaInline "hl.dsp.focus({ direction = \"right\" })")
+      	  ];
+      	}
       ];
     };
   };
