@@ -12,8 +12,6 @@
 	ticktick
 	libreoffice
 
-	unityhub
-
 	polkit_gnome
 	noto-fonts-color-emoji
   ];
