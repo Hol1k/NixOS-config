@@ -9,5 +9,6 @@
 	neovim
 	wget
 	man
+	tree
   ];
 }
