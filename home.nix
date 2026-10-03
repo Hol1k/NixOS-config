@@ -13,6 +13,7 @@
   	./home-modules/programs/rofi.nix
   	./home-modules/programs/jb-rider.nix
   	./home-modules/programs/unity-hub.nix
+  	./home-modules/programs/zapret.nix
 
   	./home-modules/services/udiskie.nix
 

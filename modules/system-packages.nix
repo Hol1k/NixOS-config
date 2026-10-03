@@ -7,7 +7,9 @@
 	git
 	micro
 	neovim
+	iptables
 	wget
+	gawk
 	man
 	tree
   ];

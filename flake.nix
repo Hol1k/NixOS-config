@@ -28,6 +28,7 @@
           ./modules/direnv.nix
           
           ./modules/services/pipewire.nix
+	  ./modules/services/nftables.nix
 
           home-manager.nixosModules.home-manager {
           	home-manager.useGlobalPkgs = true;
