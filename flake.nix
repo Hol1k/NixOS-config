@@ -29,6 +29,7 @@
           
           ./modules/services/pipewire.nix
 	  ./modules/services/nftables.nix
+	  ./modules/services/flatpak.nix
 
           home-manager.nixosModules.home-manager {
           	home-manager.useGlobalPkgs = true;
