@@ -69,4 +69,5 @@ let
 
 in {
   home.packages = [ zapret ];
+  programs.bash.shellAliases.zapret = "sudo zapret";
 }
