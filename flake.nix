@@ -26,6 +26,7 @@
           ./modules/steam.nix
           ./modules/fonts.nix
           ./modules/direnv.nix
+          ./modules/gc.nix
           
           ./modules/services/pipewire.nix
 	  ./modules/services/nftables.nix
